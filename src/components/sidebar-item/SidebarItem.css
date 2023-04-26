@@ -1,0 +1,30 @@
+.sidebar-item {
+  align-items: center;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 0.6em;
+  justify-content: flex-start;
+  margin-bottom: 1em;
+  padding: 1em;
+  user-select: none;
+}
+
+.sidebar-item:hover {
+  outline: 2px solid lightgray;
+}
+
+.sidebar-item-active {
+  background: #f5f5f5;
+}
+
+.sidebar-item-icon {
+  width: 1.5em;
+}
+
+.sidebar-item-label {
+  color: #7c7c7a;
+  font-size: 1em;
+  font-weight: 600;
+}

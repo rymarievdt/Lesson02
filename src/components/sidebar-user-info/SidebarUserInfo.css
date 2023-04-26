@@ -1,0 +1,36 @@
+.sidebar-user-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar-user-avatar {
+  color: #ffffff;
+  background: #4a49cb;
+  border-radius: 0.5em;
+  font-size: 1em;
+  font-weight: 700;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  user-select: none;
+  width: 3em;
+}
+
+.sidebar-user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 0.5em;
+}
+
+.sidebar-user-name {
+  color: #222133;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.sidebar-user-email {
+  color: #7c7c7a;
+  font-size: 0.8em;
+  font-weight: 400;
+}
